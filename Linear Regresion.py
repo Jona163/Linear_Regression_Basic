@@ -22,3 +22,7 @@ y = np.linspace(0,50,50)
 
 x += np.random.uniform(-4,4,50)
 y += np.random.uniform(-4,4,50)
+
+# Mostraremos la data dispersa || scatter 
+plt.scatter(x,y)
+plt.xlabel('x')
