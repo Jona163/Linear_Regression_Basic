@@ -80,3 +80,8 @@ sns.heatmap(m,annot=True,cmap='Reds')
 
 # Split the data || x, y, test_size, randomstate 42
 X_train, X_test, Y_train, Y_test = train_test_split(Advertising.loc[:,['TV','radio']],Advertising.loc[:,'sales'],test_size=0.2,random_state=42)
+
+# Iniciar el modelo
+model_2 = LinearRegression()
+# Ajustar el modelo
+model_2.fit(X_train,Y_train)
