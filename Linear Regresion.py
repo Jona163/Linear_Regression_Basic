@@ -12,3 +12,10 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+
+# Semilla random || random.seed || random.uniform
+np.random.seed(101)
+# X y Y
+# Vamos a crear 50 valores aleatorios
+x = np.linspace(0,50,50)
+y = np.linspace(0,50,50)
