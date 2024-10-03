@@ -71,3 +71,8 @@ Advertising.head()
 
 # Visualizar data || pairplot(df,x_vars,y_vars,size,aspect)
 sns.pairplot(Advertising,x_vars=['TV','radio','newspaper'],y_vars=['sales'],size=5,aspect=1)
+
+# Matriz de calor || corr() || plt.figure || heatmat(m,annot,cmap)
+m = Advertising.loc[:,'TV':].corr()
+plt.figure(figsize=(10,10))
+sns.heatmap(m,annot=True,cmap='Reds')
