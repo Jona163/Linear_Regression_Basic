@@ -2,3 +2,10 @@
 # Fecha: 02 Octubre 2024
 # Descripción: Código para Regresion Lineal.
 # GitHub: https://github.com/Jona163
+
+# Importar Librerias, matplotlib, numpy, pandas, seaborn, sklearn(linear_model, model_selection, metrics)
+import matplotlib.pyplot as plt
+%matplotlib inline
+import numpy as np
+import pandas as pd
+import seaborn as sns
