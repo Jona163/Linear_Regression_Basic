@@ -34,3 +34,7 @@ x[0]
 
 # Valor real
 y[0]
+
+# Linear Regression || fit the model
+model = LinearRegression()
+model.fit(x.reshape(-1,1),y)
