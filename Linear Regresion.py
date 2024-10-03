@@ -46,3 +46,7 @@ model.score(x.reshape(-1,1),y)
 y_pred = model.predict(x.reshape(-1,1))
 
 y_pred
+
+# Evaluation metric || RMSE
+RMSE = np.sqrt(mean_squared_error(y_pred,y))
+RMSE
