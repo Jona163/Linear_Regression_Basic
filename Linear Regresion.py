@@ -31,3 +31,6 @@ plt.title('Data Dispersa')
 
 # Caracteristica
 x[0]
+
+# Valor real
+y[0]
