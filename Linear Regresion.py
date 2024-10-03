@@ -58,3 +58,7 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.legend()
 plt.title('Linear Regression Fitted')
+
+# Advertising csv
+# path ../input/advertising.csv/Advertising.csv
+Advertising = pd.read_csv('../input/advertising.csv/Advertising.csv')
