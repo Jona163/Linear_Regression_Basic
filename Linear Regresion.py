@@ -62,3 +62,5 @@ plt.title('Linear Regression Fitted')
 # Advertising csv
 # path ../input/advertising.csv/Advertising.csv
 Advertising = pd.read_csv('../input/advertising.csv/Advertising.csv')
+# shape
+Advertising.shape
