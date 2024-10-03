@@ -28,3 +28,6 @@ plt.scatter(x,y)
 plt.xlabel('x')
 plt.ylabel('y')
 plt.title('Data Dispersa')
+
+# Caracteristica
+x[0]
