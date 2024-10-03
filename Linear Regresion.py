@@ -50,3 +50,7 @@ y_pred
 # Evaluation metric || RMSE
 RMSE = np.sqrt(mean_squared_error(y_pred,y))
 RMSE
+
+# Plotear la linea xd || plot x,y || plot x, predict || label || legend
+plt.plot(x,y,'o',label='Valores reales')
+plt.plot(x,y_pred,label='Regresion Lineal')
