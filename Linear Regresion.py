@@ -26,3 +26,5 @@ y += np.random.uniform(-4,4,50)
 # Mostraremos la data dispersa || scatter 
 plt.scatter(x,y)
 plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Data Dispersa')
