@@ -85,3 +85,15 @@ X_train, X_test, Y_train, Y_test = train_test_split(Advertising.loc[:,['TV','rad
 model_2 = LinearRegression()
 # Ajustar el modelo
 model_2.fit(X_train,Y_train)
+
+# Rsquared
+model_2.score(X_test,Y_test)
+
+# Predict test
+Y_pred = model_2.predict(X_test)
+
+# RMSE test
+RMSE = np.sqrt(mean_squared_error(Y_pred,Y_test))
+RMSE
+
+model_2.predict([[250.1,10.]])
