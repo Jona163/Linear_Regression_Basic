@@ -68,3 +68,6 @@ Advertising.shape
 
 # Entender los datos
 Advertising.head()
+
+# Visualizar data || pairplot(df,x_vars,y_vars,size,aspect)
+sns.pairplot(Advertising,x_vars=['TV','radio','newspaper'],y_vars=['sales'],size=5,aspect=1)
