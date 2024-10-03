@@ -44,3 +44,5 @@ model.score(x.reshape(-1,1),y)
 
 # Predicciones
 y_pred = model.predict(x.reshape(-1,1))
+
+y_pred
