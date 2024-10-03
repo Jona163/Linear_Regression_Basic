@@ -38,3 +38,6 @@ y[0]
 # Linear Regression || fit the model
 model = LinearRegression()
 model.fit(x.reshape(-1,1),y)
+
+# Rsquared
+model.score(x.reshape(-1,1),y)
