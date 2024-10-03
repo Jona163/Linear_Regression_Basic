@@ -54,3 +54,5 @@ RMSE
 # Plotear la linea xd || plot x,y || plot x, predict || label || legend
 plt.plot(x,y,'o',label='Valores reales')
 plt.plot(x,y_pred,label='Regresion Lineal')
+plt.xlabel('x')
+plt.ylabel('y')
