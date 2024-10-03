@@ -19,3 +19,6 @@ np.random.seed(101)
 # Vamos a crear 50 valores aleatorios
 x = np.linspace(0,50,50)
 y = np.linspace(0,50,50)
+
+x += np.random.uniform(-4,4,50)
+y += np.random.uniform(-4,4,50)
